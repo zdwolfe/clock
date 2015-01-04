@@ -1,0 +1,1 @@
+$(function(){"use strict";var t=$("td").length,e=t-$("td.extra").length,l=$("tr").length,n=$("tr").first().children("td").length,s=$("td.active").length;$("#numCells").text(t),$("#numActiveCells").text(s),$("#numUsableCells").text(e),$("#numRows").text(l),$("#numCols").text(n)});
