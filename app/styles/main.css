@@ -1,29 +1,32 @@
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+table#world-clock {
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('/images/oak.png');
+  background-size: 500px 500px;
+  padding: 30px;
+  border-radius: 2px;
+  color: #444;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
+table#world-clock td {
+  font-family: 'Monospace';
+  font-size: 12pt;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-stroke: 0.01em #000;
 }
 
-.hero-unit h1 {
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
+#world-clock-wrapper {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('/images/honey-oak.png');
+  padding: 10px;
 }
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+.active {
+  color: white;
+  -webkit-text-stroke: 0.06em #000;
 }
