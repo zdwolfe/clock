@@ -6713,6 +6713,12 @@ naming: default grid - extended grid/package width</description>
 <junction x="20.32" y="-129.54"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="PCB1" gate="G$1" pin="GND."/>
+<junction x="-81.28" y="10.16"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

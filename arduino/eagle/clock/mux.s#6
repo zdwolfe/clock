@@ -5629,7 +5629,7 @@ naming: default grid - extended grid/package width</description>
 <part name="T_SEVEN" library="led" deviceset="LED" device="SMT1206"/>
 <part name="T_TEN" library="led" deviceset="LED" device="SMT1206"/>
 <part name="T_NINE" library="led" deviceset="LED" device="SMT1206"/>
-<part name="LED5" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_ELEVEN" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED6" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED7" library="led" deviceset="LED" device="SMT1206"/>
 <part name="LED8" library="led" deviceset="LED" device="SMT1206"/>
@@ -5839,7 +5839,7 @@ naming: default grid - extended grid/package width</description>
 <instance part="T_SEVEN" gate="G$1" x="88.9" y="-147.32"/>
 <instance part="T_TEN" gate="G$1" x="101.6" y="-147.32"/>
 <instance part="T_NINE" gate="G$1" x="114.3" y="-147.32"/>
-<instance part="LED5" gate="G$1" x="127" y="-147.32"/>
+<instance part="T_ELEVEN" gate="G$1" x="127" y="-147.32"/>
 <instance part="LED6" gate="G$1" x="139.7" y="-147.32"/>
 <instance part="LED7" gate="G$1" x="152.4" y="-147.32"/>
 <instance part="LED8" gate="G$1" x="165.1" y="-147.32"/>
@@ -6469,7 +6469,7 @@ naming: default grid - extended grid/package width</description>
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="T_ELEVEN" gate="G$1" pin="C"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 <junction x="127" y="-152.4"/>
 </segment>
@@ -6662,7 +6662,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U4" gate="A" pin="QD"/>
 <wire x1="55.88" y1="-121.92" x2="53.34" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="T_ELEVEN" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-121.92" x2="127" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="127" y1="-121.92" x2="127" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="55.88" y="-121.92"/>
