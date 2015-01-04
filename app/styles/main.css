@@ -2,7 +2,7 @@ table#world-clock {
   table-layout: fixed;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('/images/oak.png');
+  background-image: url('../images/oak.png');
   background-size: 500px 500px;
   padding: 30px;
   border-radius: 2px;
@@ -22,7 +22,7 @@ table#world-clock td {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('/images/honey-oak.png');
+  background-image: url('../images/honey-oak.png');
   padding: 10px;
 }
 
