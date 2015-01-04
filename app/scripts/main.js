@@ -1,15 +1,15 @@
-'use strict';
-
 $(function() {
-  var num_cells = $('td').length;
-  var num_usable_cells = num_cells - $('td.extra').length;
-  var num_rows = $('tr').length;
-  var num_cols = $('tr').first().children('td').length;
-  var num_active_cells = $('td.active').length;
+  'use strict';
 
-  $('#num_cells').text(num_cells);
-  $('#num_active_cells').text(num_active_cells);
-  $('#num_usable_cells').text(num_usable_cells);
-  $('#num_rows').text(num_rows);
-  $('#num_cols').text(num_cols);
+  var numCells = $('td').length;
+  var numUsableCells = numCells - $('td.extra').length;
+  var numRows = $('tr').length;
+  var numCols = $('tr').first().children('td').length;
+  var numActiveCells = $('td.active').length;
+
+  $('#numCells').text(numCells);
+  $('#numActiveCells').text(numActiveCells);
+  $('#numUsableCells').text(numUsableCells);
+  $('#numRows').text(numRows);
+  $('#numCols').text(numCols);
 });
