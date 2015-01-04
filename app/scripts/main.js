@@ -1,3 +1,5 @@
+'use strict';
+
 $(function() {
   var num_cells = $('td').length;
   var num_usable_cells = num_cells - $('td.extra').length;
