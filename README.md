@@ -8,3 +8,6 @@
   * Works with a few timekeeping modules:
     * [Time](https://www.pjrc.com/teensy/td_libs_Time.html) module ([DS1307 lib](https://www.pjrc.com/teensy/td_libs_DS1307RTC.html))
     * [RTClib](https://github.com/adafruit/RTClib)
+### Software
+* Eagle
+* [DS1307 library](https://github.com/adafruit/Adafruit-Eagle-Library)
