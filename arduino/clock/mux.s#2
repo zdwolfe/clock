@@ -6200,7 +6200,8 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <wire x1="-20.32" y1="-60.96" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-60.96" x2="-43.18" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-45.72" x2="-43.18" y2="-50.8" width="0.1524" layer="91" curve="-180"/>
-<wire x1="-43.18" y1="60.96" x2="-43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="60.96" x2="-116.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="60.96" x2="-116.84" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -5346,9 +5346,9 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <plain>
 <wire x1="-7.62" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="93"/>
 <wire x1="7.62" y1="-2.54" x2="20.32" y2="-2.54" width="0.1524" layer="93"/>
-<wire x1="0" y1="-48.26" x2="-116.84" y2="-48.26" width="0.1524" layer="93"/>
-<wire x1="-116.84" y1="-48.26" x2="-116.84" y2="10.16" width="0.1524" layer="93"/>
-<wire x1="-116.84" y1="10.16" x2="-104.14" y2="10.16" width="0.1524" layer="93"/>
+<wire x1="0" y1="-48.26" x2="-241.3" y2="-48.26" width="0.1524" layer="93"/>
+<wire x1="-241.3" y1="-48.26" x2="-241.3" y2="10.16" width="0.1524" layer="93"/>
+<wire x1="-241.3" y1="10.16" x2="-104.14" y2="10.16" width="0.1524" layer="93"/>
 <wire x1="-116.84" y1="15.24" x2="-101.6" y2="15.24" width="0.1524" layer="93"/>
 <wire x1="20.32" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="93"/>
 <wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.1524" layer="93"/>
@@ -6200,6 +6200,8 @@ http://www.element14.com/community/community/knode/cadsoft_eagle</description>
 <wire x1="-20.32" y1="-60.96" x2="-7.62" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-60.96" x2="-43.18" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-45.72" x2="-43.18" y2="-50.8" width="0.1524" layer="91" curve="-180"/>
+<wire x1="-43.18" y1="60.96" x2="-116.84" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="60.96" x2="-116.84" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
