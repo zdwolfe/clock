@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -5573,23 +5573,23 @@ naming: default grid - extended grid/package width</description>
 </classes>
 <parts>
 <part name="P_IT" library="led" deviceset="LED" device="SMT1206"/>
-<part name="CW_C" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_IS" library="led" deviceset="LED" device="SMT1206"/>
-<part name="CW_A" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_TEN" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_HALF" library="led" deviceset="LED" device="SMT1206"/>
-<part name="P_QUARTER" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_TWENTY" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_FIVE" library="led" deviceset="LED" device="SMT1206"/>
-<part name="CW_S" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_MINUTES" library="led" deviceset="LED" device="SMT1206"/>
-<part name="CW_I" library="led" deviceset="LED" device="SMT1206"/>
+<part name="P_QUARTER" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_PAST" library="led" deviceset="LED" device="SMT1206"/>
 <part name="P_TO" library="led" deviceset="LED" device="SMT1206"/>
-<part name="CW_W" library="led" deviceset="LED" device="SMT1206"/>
-<part name="T_ONE" library="led" deviceset="LED" device="SMT1206"/>
-<part name="T_TWO" library="led" deviceset="LED" device="SMT1206"/>
-<part name="T_THREE" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_ELEVEN_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_THREE_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_TWELVE_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_TWO_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_FOUR_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_EIGHT_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_SIX_" library="led" deviceset="LED" device="SMT1206"/>
+<part name="T_TEN_" library="led" deviceset="LED" device="SMT1206"/>
 <part name="CW_OL" library="led" deviceset="LED" device="SMT1206"/>
 <part name="T_FIVE" library="led" deviceset="LED" device="SMT1206"/>
 <part name="CW_FE" library="led" deviceset="LED" device="SMT1206"/>
@@ -5777,23 +5777,23 @@ naming: default grid - extended grid/package width</description>
 </plain>
 <instances>
 <instance part="P_IT" gate="G$1" x="76.2" y="30.48"/>
-<instance part="CW_C" gate="G$1" x="88.9" y="30.48"/>
-<instance part="P_IS" gate="G$1" x="101.6" y="30.48"/>
-<instance part="CW_A" gate="G$1" x="114.3" y="30.48"/>
-<instance part="P_TEN" gate="G$1" x="127" y="30.48"/>
-<instance part="P_HALF" gate="G$1" x="139.7" y="30.48"/>
-<instance part="P_QUARTER" gate="G$1" x="152.4" y="30.48"/>
-<instance part="P_TWENTY" gate="G$1" x="165.1" y="30.48"/>
-<instance part="P_FIVE" gate="G$1" x="76.2" y="-33.02"/>
-<instance part="CW_S" gate="G$1" x="88.9" y="-33.02"/>
-<instance part="P_MINUTES" gate="G$1" x="101.6" y="-33.02"/>
-<instance part="CW_I" gate="G$1" x="114.3" y="-33.02"/>
-<instance part="P_PAST" gate="G$1" x="127" y="-33.02"/>
-<instance part="P_TO" gate="G$1" x="139.7" y="-33.02"/>
-<instance part="CW_W" gate="G$1" x="152.4" y="-33.02"/>
-<instance part="T_ONE" gate="G$1" x="165.1" y="-33.02"/>
-<instance part="T_TWO" gate="G$1" x="76.2" y="-93.98"/>
-<instance part="T_THREE" gate="G$1" x="88.9" y="-93.98"/>
+<instance part="P_IS" gate="G$1" x="88.9" y="30.48"/>
+<instance part="P_TEN" gate="G$1" x="101.6" y="30.48"/>
+<instance part="P_HALF" gate="G$1" x="114.3" y="30.48"/>
+<instance part="P_TWENTY" gate="G$1" x="127" y="30.48"/>
+<instance part="P_FIVE" gate="G$1" x="139.7" y="30.48"/>
+<instance part="P_MINUTES" gate="G$1" x="152.4" y="30.48"/>
+<instance part="P_QUARTER" gate="G$1" x="165.1" y="30.48"/>
+<instance part="P_PAST" gate="G$1" x="76.2" y="-33.02"/>
+<instance part="P_TO" gate="G$1" x="88.9" y="-33.02"/>
+<instance part="T_ELEVEN_" gate="G$1" x="101.6" y="-33.02"/>
+<instance part="T_THREE_" gate="G$1" x="114.3" y="-33.02"/>
+<instance part="T_TWELVE_" gate="G$1" x="127" y="-33.02"/>
+<instance part="T_TWO_" gate="G$1" x="139.7" y="-33.02"/>
+<instance part="T_FOUR_" gate="G$1" x="152.4" y="-33.02"/>
+<instance part="T_EIGHT_" gate="G$1" x="165.1" y="-33.02"/>
+<instance part="T_SIX_" gate="G$1" x="76.2" y="-93.98"/>
+<instance part="T_TEN_" gate="G$1" x="88.9" y="-93.98"/>
 <instance part="CW_OL" gate="G$1" x="101.6" y="-93.98"/>
 <instance part="T_FIVE" gate="G$1" x="114.3" y="-93.98"/>
 <instance part="CW_FE" gate="G$1" x="127" y="-93.98"/>
@@ -5846,14 +5846,14 @@ naming: default grid - extended grid/package width</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="T_TWO" gate="G$1" pin="C"/>
+<pinref part="T_SIX_" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <junction x="76.2" y="-99.06"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="T_THREE" gate="G$1" pin="C"/>
+<pinref part="T_TEN_" gate="G$1" pin="C"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <junction x="88.9" y="-99.06"/>
 </segment>
@@ -5902,56 +5902,56 @@ naming: default grid - extended grid/package width</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="P_FIVE" gate="G$1" pin="C"/>
+<pinref part="P_PAST" gate="G$1" pin="C"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <junction x="76.2" y="-38.1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="CW_S" gate="G$1" pin="C"/>
+<pinref part="P_TO" gate="G$1" pin="C"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <junction x="88.9" y="-38.1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="P_MINUTES" gate="G$1" pin="C"/>
+<pinref part="T_ELEVEN_" gate="G$1" pin="C"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <junction x="101.6" y="-38.1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="CW_I" gate="G$1" pin="C"/>
+<pinref part="T_THREE_" gate="G$1" pin="C"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <junction x="114.3" y="-38.1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="P_PAST" gate="G$1" pin="C"/>
+<pinref part="T_TWELVE_" gate="G$1" pin="C"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <junction x="127" y="-38.1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="P_TO" gate="G$1" pin="C"/>
+<pinref part="T_TWO_" gate="G$1" pin="C"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <junction x="139.7" y="-38.1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="CW_W" gate="G$1" pin="C"/>
+<pinref part="T_FOUR_" gate="G$1" pin="C"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <junction x="152.4" y="-38.1"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="T_ONE" gate="G$1" pin="C"/>
+<pinref part="T_EIGHT_" gate="G$1" pin="C"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="165.1" y="-38.1"/>
 </segment>
@@ -5965,49 +5965,49 @@ naming: default grid - extended grid/package width</description>
 </net>
 <net name="CW_C" class="0">
 <segment>
-<pinref part="CW_C" gate="G$1" pin="C"/>
+<pinref part="P_IS" gate="G$1" pin="C"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <junction x="88.9" y="25.4"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="P_IS" gate="G$1" pin="C"/>
+<pinref part="P_TEN" gate="G$1" pin="C"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <junction x="101.6" y="25.4"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="CW_A" gate="G$1" pin="C"/>
+<pinref part="P_HALF" gate="G$1" pin="C"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <junction x="114.3" y="25.4"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="P_TEN" gate="G$1" pin="C"/>
+<pinref part="P_TWENTY" gate="G$1" pin="C"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <junction x="127" y="25.4"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="P_HALF" gate="G$1" pin="C"/>
+<pinref part="P_FIVE" gate="G$1" pin="C"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <junction x="139.7" y="25.4"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="P_QUARTER" gate="G$1" pin="C"/>
+<pinref part="P_MINUTES" gate="G$1" pin="C"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <junction x="152.4" y="25.4"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="P_TWENTY" gate="G$1" pin="C"/>
+<pinref part="P_QUARTER" gate="G$1" pin="C"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <junction x="165.1" y="25.4"/>
 </segment>
@@ -6016,7 +6016,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QA"/>
 <wire x1="55.88" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="P_TWENTY" gate="G$1" pin="A"/>
+<pinref part="P_QUARTER" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="60.96" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="60.96"/>
@@ -6038,7 +6038,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QG"/>
 <wire x1="53.34" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="CW_C" gate="G$1" pin="A"/>
+<pinref part="P_IS" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="45.72" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="45.72"/>
@@ -6049,7 +6049,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QF"/>
 <wire x1="55.88" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="P_IS" gate="G$1" pin="A"/>
+<pinref part="P_TEN" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="48.26" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="48.26"/>
@@ -6060,7 +6060,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QE"/>
 <wire x1="55.88" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="CW_A" gate="G$1" pin="A"/>
+<pinref part="P_HALF" gate="G$1" pin="A"/>
 <wire x1="114.3" y1="33.02" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="50.8" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
@@ -6072,7 +6072,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QD"/>
 <wire x1="53.34" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="P_TEN" gate="G$1" pin="A"/>
+<pinref part="P_TWENTY" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="53.34" x2="127" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="127" y1="53.34" x2="127" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="53.34"/>
@@ -6083,7 +6083,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QB"/>
 <wire x1="55.88" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="P_QUARTER" gate="G$1" pin="A"/>
+<pinref part="P_MINUTES" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="58.42" x2="152.4" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="58.42"/>
@@ -6094,7 +6094,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U1" gate="A" pin="QC"/>
 <wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="P_HALF" gate="G$1" pin="A"/>
+<pinref part="P_FIVE" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="55.88" x2="139.7" y2="33.02" width="0.1524" layer="91"/>
 <junction x="55.88" y="55.88"/>
@@ -6105,7 +6105,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QC"/>
 <wire x1="53.34" y1="-7.62" x2="55.88" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="P_TO" gate="G$1" pin="A"/>
+<pinref part="T_TWO_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-7.62" x2="139.7" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="-7.62" x2="139.7" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-7.62"/>
@@ -6116,7 +6116,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QB"/>
 <wire x1="55.88" y1="-5.08" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="CW_W" gate="G$1" pin="A"/>
+<pinref part="T_FOUR_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-5.08" x2="152.4" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-5.08" x2="152.4" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-5.08"/>
@@ -6129,7 +6129,7 @@ naming: default grid - extended grid/package width</description>
 <wire x1="55.88" y1="-2.54" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-2.54" x2="165.1" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-2.54" x2="165.1" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="T_ONE" gate="G$1" pin="A"/>
+<pinref part="T_EIGHT_" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="-30.48" x2="165.1" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="165.1" y="-30.48"/>
 <junction x="55.88" y="-2.54"/>
@@ -6139,7 +6139,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QD"/>
 <wire x1="55.88" y1="-10.16" x2="53.34" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="P_PAST" gate="G$1" pin="A"/>
+<pinref part="T_TWELVE_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-10.16" x2="127" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="127" y1="-10.16" x2="127" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-10.16"/>
@@ -6150,7 +6150,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QE"/>
 <wire x1="53.34" y1="-12.7" x2="55.88" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="CW_I" gate="G$1" pin="A"/>
+<pinref part="T_THREE_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-12.7" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="-12.7" x2="114.3" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-12.7"/>
@@ -6161,7 +6161,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QG"/>
 <wire x1="55.88" y1="-17.78" x2="53.34" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="CW_S" gate="G$1" pin="A"/>
+<pinref part="P_TO" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-17.78" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-17.78" x2="88.9" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-17.78"/>
@@ -6172,7 +6172,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U2" gate="A" pin="QH"/>
 <wire x1="53.34" y1="-20.32" x2="55.88" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="P_FIVE" gate="G$1" pin="A"/>
+<pinref part="P_PAST" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-20.32" x2="76.2" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-20.32" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-20.32"/>
@@ -6185,7 +6185,7 @@ naming: default grid - extended grid/package width</description>
 <wire x1="53.34" y1="-15.24" x2="55.88" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-15.24" x2="101.6" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-15.24" x2="101.6" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="P_MINUTES" gate="G$1" pin="A"/>
+<pinref part="T_ELEVEN_" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="-30.48" x2="101.6" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="101.6" y="-30.48"/>
 <junction x="55.88" y="-15.24"/>
@@ -6195,7 +6195,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <wire x1="53.34" y1="-76.2" x2="55.88" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="QG"/>
-<pinref part="T_THREE" gate="G$1" pin="A"/>
+<pinref part="T_TEN_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-76.2" x2="88.9" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-76.2" x2="88.9" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="55.88" y="-76.2"/>
@@ -6272,7 +6272,7 @@ naming: default grid - extended grid/package width</description>
 <segment>
 <pinref part="U3" gate="A" pin="QH"/>
 <wire x1="55.88" y1="-78.74" x2="53.34" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="T_TWO" gate="G$1" pin="A"/>
+<pinref part="T_SIX_" gate="G$1" pin="A"/>
 <wire x1="55.88" y1="-78.74" x2="76.2" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-78.74" x2="76.2" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="55.88" y="-78.74"/>
