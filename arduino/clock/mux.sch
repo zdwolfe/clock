@@ -5732,7 +5732,6 @@ naming: default grid - extended grid/package width</description>
 <wire x1="7.62" y1="-76.2" x2="20.32" y2="-76.2" width="0.1524" layer="93"/>
 <wire x1="2.54" y1="-76.2" x2="7.62" y2="-76.2" width="0.1524" layer="93" curve="-180"/>
 <wire x1="-27.94" y1="-45.72" x2="-27.94" y2="-50.8" width="0.1524" layer="93" curve="-180"/>
-<wire x1="-7.62" y1="-71.12" x2="-7.62" y2="-81.28" width="0.1524" layer="93" curve="-180"/>
 <wire x1="-27.94" y1="-50.8" x2="-27.94" y2="-76.2" width="0.1524" layer="93"/>
 <wire x1="-27.94" y1="-76.2" x2="-20.32" y2="-76.2" width="0.1524" layer="93" curve="-180"/>
 </plain>
