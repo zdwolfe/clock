@@ -1,0 +1,12 @@
+Arduino\ Board=Arduino/Genuino Uno
+Arduino\ Custom\ Option\ Selections=
+Arduino\ IDE\ Version=1.6.5-r4
+Arduino\ Path=/home/zdwolfe/bin/arduino-1.6.5-r4
+Arduino\ Port=/dev/ttyACM0
+Arduino\ boards\ file=/home/zdwolfe/bin/arduino-1.6.5-r4/hardware/arduino/avr/boards.txt
+FsStatus=1
+JANTJE.TEMPLATE_FOLDER=
+JANTJE.TEMPLATE_USE_DEFAULT=true
+Private\ Library\ Path=/home/zdwolfe/Arduino/libraries
+Private\ hardware\ Path=/home/zdwolfe/Arduino/hardware
+eclipse.preferences.version=1
